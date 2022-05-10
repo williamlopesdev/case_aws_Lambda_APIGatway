@@ -5,7 +5,7 @@ const pacientes = [
   { id: 3, nome: "Jose", dataNascimento: "1998-06-06" },
 ];
 
-const AWS = require("aws-sdk");
+const AWS = require("aws-sdk"); /* facilita a chamada de serviços da AWS usando APIs JavaScript*/
 const { v4: uuidv4 } = require("uuid");
 
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
