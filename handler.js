@@ -207,3 +207,4 @@ module.exports.excluirPaciente = async event => {
     };
   }
 }
+
