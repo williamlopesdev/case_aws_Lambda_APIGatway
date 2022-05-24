@@ -7,6 +7,8 @@ const pacientes = [
 
 /* facilita a chamada de serviços da AWS usando APIs JavaScript*/
 /* facilita a chamada de serviços da AWS usando APIs JavaScript*/
+/* facilita a chamada de serviços da AWS usando APIs JavaScript*/
+
 
 const AWS = require("aws-sdk"); /* facilita a chamada de serviços da AWS usando APIs JavaScript*/
 const { v4: uuidv4 } = require("uuid");
